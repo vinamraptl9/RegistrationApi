@@ -47,7 +47,7 @@ CREATE TABLE registration (
 );
 
 
-##Stored Procedures
+## Stored Procedures
 -- Create User
 CREATE OR REPLACE PROCEDURE create_user(
     _fullname TEXT,
@@ -80,7 +80,7 @@ BEGIN
 END;
 $$;
 
- ⚙ Configuration
+ ## Configuration
 Update your appsettings.json with your PostgreSQL connection string:
 "ConnectionStrings": {
   "DefaultConnection": "Host=localhost;Port=5432;Database=YourDbName;Username=your_user;Password=your_password"
