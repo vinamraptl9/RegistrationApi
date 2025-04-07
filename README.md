@@ -80,4 +80,10 @@ BEGIN
 END;
 $$;
 
+ ⚙ Configuration
+Update your appsettings.json with your PostgreSQL connection string:
+"ConnectionStrings": {
+  "DefaultConnection": "Host=localhost;Port=5432;Database=YourDbName;Username=your_user;Password=your_password"
+}
+
 
