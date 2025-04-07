@@ -81,27 +81,3 @@ END;
 $$;
 
 
- ##Sample JSON for POST /api/registration
-{
-  "fullname": "John Doe",
-  "email": "john@example.com",
-  "phone": "1234567890",
-  "password": "MySecurePass123"
-}
-
-
-##Configuration
-Update your appsettings.json with your PostgreSQL connection string:
-"ConnectionStrings": {
-  "DefaultConnection": "Host=localhost;Port=5432;Database=YourDbName;Username=your_user;Password=your_password"
-}
-
-## Test Using Swagger
-Run the app and navigate to:
-https://localhost:<your-port>/swagger
-You can test all endpoints interactively using Swagger UI.
-
-Author
-Vinamra Patel
-📧 vinamrapatel0@gmail.com
-
